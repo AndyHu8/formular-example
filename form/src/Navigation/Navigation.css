@@ -1,0 +1,43 @@
+.navigationContainer {
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-shadow: 3px 3px red;
+}
+
+.navigationContainer > .logo {
+    border: 3px solid red;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navigationContainer > .list {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.navigationContainer > .list > a {
+    transition: 0.5s;
+}
+
+.navigationContainer > .logo:hover {
+    color: red;
+    text-shadow: 3px 3px white;
+}
+
+.navigationContainer > .list > a:hover {
+    color: red;
+    text-shadow: 3px 3px white;
+}
