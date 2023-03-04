@@ -1,0 +1,38 @@
+.footerContainer {
+    width: 100%;
+    background-color: black;
+    padding: 3em 10em;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.footerContainer > .footerLinks {
+    letter-spacing: 0.3em;
+    line-height: 1.5;
+}
+
+.footerLinks > h3 > span {
+    background-color: white;
+    color: black;
+    padding: 2.5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footerLinks > h3 > span:hover {
+    background-color: black;
+    color: white;
+}
+
+.footerRechts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 0.3em;
+}
+
+.footerContainer > .footerRechts > img {
+    width: 50px;
+}
