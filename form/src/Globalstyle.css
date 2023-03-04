@@ -1,0 +1,49 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Righteous', cursive;
+    overflow-x: hidden;
+    background-color: black;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-image: url("../src/Bilder/palmenHamburg.jpg");
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 1000px;
+  }
+  
+  ::selection {
+    color: black;
+    background-color: white;
+    text-shadow: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0A0A0A;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+    border: 2px solid white;
+  }
