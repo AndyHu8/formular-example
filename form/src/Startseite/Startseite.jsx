@@ -3,7 +3,7 @@ import logo from "../Bilder/CMORA_weiss.png"
 
 export default function Startseite() {
     return (
-        <div className="startseiteContainer">
+        <div id="home" className="startseiteContainer">
             <div>
                 <img src={logo} alt="Palmen aus Pappe" />
             </div>
