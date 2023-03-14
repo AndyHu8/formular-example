@@ -7,6 +7,7 @@ export default function Navigation() {
             <ul className="list">
                 <a href="#home"><li>Home</li></a>
                 <a href="#videos"><li>Videos</li></a>
+                <a href="#videoBg"><li>VideoBg</li></a>
                 <a href="#form"><li>Form</li></a>
             </ul>
         </div>

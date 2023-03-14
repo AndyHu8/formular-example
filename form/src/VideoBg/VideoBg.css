@@ -1,0 +1,41 @@
+.videoBgContainer {
+    margin-top: 10em;
+    position: relative;
+}
+
+.videoBgContainer > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.videoBgContainer > div {
+    position: absolute;
+    left: 15%;
+    bottom: 25%;
+    text-shadow: 3px 3px black;
+}
+
+.videoBgContainer > div > h2 {
+    font-size: 2.5em;
+}
+
+.videoBgContainer > div > button {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 3px solid red;
+    color: white;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    text-shadow: 3px 3px red;
+    transition: 0.5s;
+}
+
+.videoBgContainer > div > button:hover {
+    color: red;
+    text-shadow: 3px 3px white;
+}

@@ -7,7 +7,7 @@ export default function Startseite() {
             <div>
                 <img src={logo} alt="Palmen aus Pappe" />
             </div>
-            <h1>Palmen aus Pappe - Offiziell Diamant gegangen</h1>
+            <h1>Palmen aus Pappe - Offiziell an Halloween Diamant gegangen</h1>
         </div>
     )
 }
