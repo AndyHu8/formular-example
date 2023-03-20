@@ -1,0 +1,32 @@
+.videosContainer {
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 10em;
+}
+
+.videosContainer > h1 {
+    display: inline;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.videosContainer > div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.videosContainer > div > iframe {
+    border: 5px solid black;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.videosContainer > div > iframe:hover {
+   transform: scale(1.05);
+}

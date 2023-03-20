@@ -3,7 +3,7 @@ import "./Navigation.css"
 export default function Navigation() {
     return (
         <div className="navigationContainer">
-            <div className="logo" onClick={() => window.location.reload()}>Palmen aus Pappe</div>
+            <div className="logo" onClick={() => window.location.reload()}>Palmen aus Pappe 3</div>
             <ul className="list">
                 <a href="#home"><li>Home</li></a>
                 <a href="#videos"><li>Videos</li></a>
