@@ -15,7 +15,6 @@ html, body {
     background-size: cover;
     width: 100%;
     position: fixed;
-    height: 1000px;
   }
 
   .app {
