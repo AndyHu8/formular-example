@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
             <div className="footerRechts">
                 <img src={logo} alt="Palmen aus Pappe" />
-                <h2>2023 Palmen aus Pappe 3</h2>
+                <h3>2023 Palmen aus Pappe 3</h3>
             </div>
         </div>
     )
