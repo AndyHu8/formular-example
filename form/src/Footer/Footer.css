@@ -48,4 +48,8 @@
         padding: 3em;
         font-size: 12px;
     }
+
+    .footerContainer > .footerRechts > img {
+        width: 30px;
+    }
 }
