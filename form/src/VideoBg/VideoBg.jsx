@@ -10,7 +10,7 @@ export default function VideoBg() {
             <div>
                 <h2>Das beste Album an Halloween - Palmen aus Pappe 3</h2>
                 <h2>JETZT STREAMEN!</h2>
-                <button onClick={() => window.open("https://open.spotify.com/album/6SZrGBrZZ77WqyMB2wsJQ9?si=w0tqqBPLR6mMMGjmlqNZnQ")}>Die Reise Starten</button>
+                <button onClick={() => window.open("https://open.spotify.com/album/6SZrGBrZZ77WqyMB2wsJQ9?si=w0tqqBPLR6mMMGjmlqNZnQ")}>Die Reise starten</button>
             </div>
         </div>
     )
